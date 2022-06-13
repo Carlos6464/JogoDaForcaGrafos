@@ -39,7 +39,7 @@ body{
 .letras{
     width: 16px;
     text-align: center;
-    border-bottom: 2px solid #8b008b;
+    border-bottom: 2px solid #009900;
     color: black;
     padding: 2px;
     margin-left: 2px;
@@ -56,10 +56,10 @@ body{
     margin: 2px;
     margin-bottom: 5px;
     cursor: pointer;
-    box-shadow:  0px 2px 8px dimgray;
+    box-shadow:  0px 2px 8px #003300;
     border-radius: 15px;
-    border: 1px solid dimgrey;
-    color: #8b008b;
+    border: 1px solid #ccffcc;
+    color: #009900;
     font-family: 'Shadows Into Light', cursive;
     font-weight: 900;
 }
@@ -74,7 +74,7 @@ body{
 
 #categoria{
     margin-top: 30px;
-    color: #8b008b;
+    color: #009900;
     font-size: 1.2em;
 }
 

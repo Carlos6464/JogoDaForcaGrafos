@@ -248,7 +248,7 @@ function verificaLetraEscolhida(letra){
 }
 
 function mudarStyleLetra(tecla){
-    document.getElementById(tecla).style.background = "#C71585";
+    document.getElementById(tecla).style.background = "#009900";
     document.getElementById(tecla).style.color = "#ffffff";
 }
 
