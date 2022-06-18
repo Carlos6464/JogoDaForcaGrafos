@@ -4,12 +4,14 @@ let palavraSecretaCategoria;
 let palavraSecretaSorteada;
 const palavras = [
     palavra001 = {
-        nome: "IRLANDA",
-        categoria:"LUGARES"
+        nome: "ADJACENCIA",
+        categoria:"GRAFOS ISOMORFOS MATRIZES",
+        nivel: "FACIL"
     },
     palavra002 = {
-        nome: "EQUADOR",
-        categoria:"LUGARES"
+      nome: "INCIDENCIA",
+      categoria:"GRAFOS ISOMORFOS MATRIZES",
+      nivel: "FACIL"
     },
     palavra003 = {
         nome: "CHILE",
