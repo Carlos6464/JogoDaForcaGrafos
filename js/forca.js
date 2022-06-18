@@ -5,210 +5,116 @@ let palavraSecretaSorteada;
 const palavras = [
     palavra001 = {
         nome: "ADJACENCIA",
-        categoria:"GRAFOS ISOMORFOS MATRIZES",
-        nivel: "FACIL"
+        categoria:"GRAFOS ISOMORFOS MATRIZ",
+        dificuldade: "FACIL",
+        mensagemAcerto: "Uma Matriz de Adjacência é uma das formas de se representar um grafo.",
     },
     palavra002 = {
       nome: "INCIDENCIA",
-      categoria:"GRAFOS ISOMORFOS MATRIZES",
-      nivel: "FACIL"
+      categoria:"GRAFOS ISOMORFOS MATRIZ",
+      dificuldade: "FACIL",
+      mensagemAcerto: "Uma Matriz de incidencia é uma das formas de se representar um grafo.",
     },
     palavra003 = {
-        nome: "CHILE",
-        categoria:"LUGARES"
+      nome: "TRAJETO",
+      categoria:"CAMINHOS E CICLOS",
+      dificuldade: "FACIL",
+      mensagemAcerto: "Um passeio em que todas as arestas são distintas é chamado de trajeto (ou trilha)."
     },
     palavra004 = {
-        nome: "INDONESIA",
-        categoria:"LUGARES"
+      nome: "DIAMETRO",
+      categoria:"CAMINHOS E CICLOS",
+      dificuldade: "FACIL",
+      mensagemAcerto: ""
     },
     palavra005 = {
-        nome: "MALDIVAS",
-        categoria:"LUGARES"
+      nome: "CENTRO",
+      categoria:"CAMINHOS E CICLOS",
+      dificuldade: "FACIL",
+        mensagemAcerto: ""
     },
+
     palavra006 = {
-        nome: "INGLATERRA",
-        categoria:"LUGARES"
+      nome: "EXCENTRICIDADE",
+      categoria:"CAMINHOS E CICLOS",
+      dificuldade: "DIFICIL",
+        mensagemAcerto: ""
     },
+
     palavra007 = {
-        nome: "GROELANDIA",
-        categoria:"LUGARES"
+      nome: "GRAFOS-ESPECIAIS",
+      categoria:"CAMINHOS E CICLOS",
+      dificuldade: "DIFICIL",
+        mensagemAcerto: ""
     },
+
     palavra008 = {
-        nome: "UZBEQUISTAO",
-        categoria:"LUGARES"
+      nome: "GERADORA",
+      categoria:"ARVORE",
+      dificuldade: "FACIL",
+        mensagemAcerto: ""
     },
+
     palavra009 = {
-        nome: "INDONESIA",
-        categoria:"LUGARES"
+      nome: "ENRAIZADA",
+      categoria:"ARVORE",
+      dificuldade: "DIFICIL",
+        mensagemAcerto: ""
     },
-    palavra010 = {
-        nome: "CREGUENHEM",
-        categoria:"LUGARES"
+
+    palavra0010 = {
+      nome: "EULERIANO",
+      categoria:"TIPO DE GRAFO",
+      dificuldade: "FACIL",
+        mensagemAcerto: ""
     },
-    palavra011 = {
-        nome: "BICICLETA",
-        categoria:"TRANSPORTE"
+
+    palavra0010 = {
+      nome: "HAMILTONIANO",
+      categoria:"TIPO DE GRAFO",
+      dificuldade: "DIFICIL",
+        mensagemAcerto: ""
     },
-    palavra012 = {
-        nome: "LANCHA",
-        categoria:"TRANSPORTE"
+
+    palavra0011 = {
+      nome: "DIJKSTRA",
+      categoria:"CAMINHOS MINIMOS (ALGORITMO)",
+      dificuldade: "DIFICIL",
+        mensagemAcerto: ""
     },
-    palavra013 = {
-        nome: "NAVIO",
-        categoria:"TRANSPORTE"
+
+    palavra0012 = {
+      nome: "BELLMAN-FORD",
+      categoria:"CAMINHOS MINIMOS (ALGORITMO)",
+      dificuldade: "DIFICIL",
+        mensagemAcerto: ""
     },
-    palavra014 = {
-        nome: "TELEFERICO",
-        categoria:"TRANSPORTE"
+
+    palavra0012 = {
+      nome: "FLOYD-WARSHALL",
+      categoria:"CAMINHOS MINIMOS (ALGORITMO)",
+      dificuldade: "DIFICIL",
+        mensagemAcerto: ""
     },
-    palavra015 = {
-        nome: "MOTOCICLETA",
-        categoria:"TRANSPORTE"
+
+    palavra0013 = {
+      nome: "PRIM",
+      categoria:"ALGORITMO GULOSO",
+      dificuldade: "FACIL",
+        mensagemAcerto: ""
     },
-    palavra016 = {
-        nome: "BARCO",
-        categoria:"TRANSPORTE"
-    },
-    palavra017 = {
-        nome: "AERONAVE",
-        categoria:"TRANSPORTE"
-    },
-    palavra018 = {
-        nome: "TREM",
-        categoria:"TRANSPORTE"
-    },
-    palavra019 = {
-        nome: "CAIAQUE",
-        categoria:"TRANSPORTE"
-    },
-    palavra020 = {
-        nome: "FUNICULAR",
-        categoria:"TRANSPORTE"
-    },
-    palavra021 = {
-        nome: "XICARA",
-        categoria:"OBJETOS"
-    },
-    palavra022 = {
-        nome: "MOEDA",
-        categoria:"OBJETOS"
-    },
-    palavra023 = {
-        nome: "ESPARADRAPO",
-        categoria:"OBJETOS"
-    },
-    palavra024 = {
-        nome: "SINO",
-        categoria:"OBJETOS"
-    },
-    palavra025 = {
-        nome: "CHUVEIRO",
-        categoria:"OBJETOS"
-    },
-    palavra026 = {
-        nome: "TAMBORETE",
-        categoria:"OBJETOS"
-    },
-    palavra027 = {
-        nome: "LAMPADA",
-        categoria:"OBJETOS"
-    },
-    palavra028 = {
-        nome: "BOCAL",
-        categoria:"OBJETOS"
-    },
-    palavra029 = {
-        nome: "CORTINA",
-        categoria:"OBJETOS"
-    },
-    palavra030 = {
-        nome: "LAPIS",
-        categoria:"OBJETOS"
-    },
-    palavra031 = {
-        nome: "MELANCIA",
-        categoria:"ALIMENTOS"
-    },
-    palavra032 = {
-        nome: "AMENDOIM",
-        categoria:"ALIMENTOS"
-    },
-    palavra033 = {
-        nome: "ESFIRRA",
-        categoria:"ALIMENTOS"
-    },
-    palavra034 = {
-        nome: "GOROROBA",
-        categoria:"ALIMENTOS"
-    },
-    palavra035 = {
-        nome: "JANTAR",
-        categoria:"ALIMENTOS"
-    },
-    palavra036 = {
-        nome: "SABOROSO",
-        categoria:"ALIMENTOS"
-    },
-    palavra037 = {
-        nome: "DESJEJUM",
-        categoria:"ALIMENTOS"
-    },
-    palavra038 = {
-        nome: "MASTIGAR",
-        categoria:"ALIMENTOS"
-    },
-    palavra039 = {
-        nome: "ENGOLIR",
-        categoria:"ALIMENTOS"
-    },
-    palavra040 = {
-        nome: "DOCERIA",
-        categoria:"ALIMENTOS"
-    },
-    palavra040 = {
-        nome: "DRAGAO",
-        categoria:"ANIMAIS"
-    },
-    palavra041 = {
-        nome: "GALINHA",
-        categoria:"ANIMAIS"
-    },
-    palavra042 = {
-        nome: "PAVAO",
-        categoria:"ANIMAIS"
-    },
-    palavra043 = {
-        nome: "CAMELO",
-        categoria:"ANIMAIS"
-    },
-    palavra044 = {
-        nome: "PERU",
-        categoria:"ANIMAIS"
-    },
-    palavra045 = {
-        nome: "ZEBRA",
-        categoria:"ANIMAIS"
-    },
-    palavra046 = {
-        nome: "DROMEDARIO",
-        categoria:"ANIMAIS"
-    },
-    palavra047 = {
-        nome: "CALANGO",
-        categoria:"ANIMAIS"
-    },
-    palavra048 = {
-        nome: "SAGUI",
-        categoria:"ANIMAIS"
-    },
-    palavra049 = {
-        nome: "LAGARTIXA",
-        categoria:"ANIMAIS"
-    },
-    palavra050 = {
-        nome: "HIPOPOTAMO",
-        categoria:"ANIMAIS"
+
+    palavra0014 = {
+      nome: "KRUSKAL",
+      categoria:"ALGORITMO GULOSO",
+      dificuldade: "DIFICIL",
+        mensagemAcerto: ""
     }
+
+
+
+
+
 ];
 
 
@@ -218,10 +124,16 @@ function criarPalavraSecreta(){
 
     palavraSecretaSorteada = palavras[indexPalavra].nome;
     palavraSecretaCategoria = palavras[indexPalavra].categoria;
+    palavraSecretaDificuldade = palavras[indexPalavra].dificuldade;
+    palavraSecretaMensagem = palavras[indexPalavra].mensagemAcerto;
+
 }
 
 montarPalavraNaTela();
 function montarPalavraNaTela(){
+    const dificuldade = document.getElementById('dificuldade');
+    dificuldade.innerHTML = "Nivel: "+ palavraSecretaDificuldade;
+
     const categoria = document.getElementById("categoria");
     categoria.innerHTML = palavraSecretaCategoria;
 
@@ -281,7 +193,7 @@ function comparalistas(letra){
 
     if(vitoria == true)
     {
-        abreModal("PARABÉNS!", "Você venceu...");
+        abreModal("PARABÉNS!", "Você venceu... Vamos entender um pouco mais sobre termo!! " + palavraSecretaMensagem );
         tentativas = 0;
     }
 }

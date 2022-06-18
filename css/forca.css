@@ -78,12 +78,21 @@ body{
     font-size: 1.2em;
 }
 
+#dificuldade{
+    margin-top: 30px;
+    color: #009900;
+    font-size: 1.2em;
+}
+
 @media (min-width: 321px){
     .teclas button{
         width: 25px;
         height: 25px;
     }
     #categoria{
+        font-size: 1.3em;
+    }
+    #dificuldade{
         font-size: 1.3em;
     }
 }
@@ -103,6 +112,10 @@ body{
     #categoria{
         font-size: 1.5em;
     }
+
+    #dificuldade{
+       font-size: 1.5em;
+    }
 }
 
 @media (min-width: 426px){
@@ -119,6 +132,9 @@ body{
 
     #categoria{
         font-size: 1.6em;
+    }
+    #dificuldade{
+       font-size: 1.6em;
     }
 }
 
@@ -137,5 +153,8 @@ body{
 
     #categoria{
         font-size: 2em;
+    }
+    #dificuldade{
+       font-size: 2em;
     }
 }
