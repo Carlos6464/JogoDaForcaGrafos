@@ -173,7 +173,7 @@ function comparalistas(letra){
         carregaImagemForca();
 
         if(tentativas == 0){
-            abreModal("OPS!", "Não foi dessa vez ... A palavra secreta era <br>" + palavraSecretaSorteada + "<br> vamos para uotra tentativa");
+            abreModal("OPS!", "Não foi dessa vez ... A palavra secreta era <br> " + palavraSecretaSorteada + "<br> Vamos entender um pouco mais sobre termo!! " + palavraSecretaMensagem + ". Vamos para outra tentativa.");
         }
     }
     else{
